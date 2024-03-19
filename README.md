@@ -1,6 +1,6 @@
 # Image masterCategory Classification Code & API
 This project provides an API for image classification and color extraction. It utilizes a pre-trained model for categorizing fashion products and extracts dominant colors from images. The dataset used for training the model can be found at [Fashion Product Images (Small)](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small) on Kaggle. 
-![output](img1.png)
+![output](out.png)
 
 
 # Components
