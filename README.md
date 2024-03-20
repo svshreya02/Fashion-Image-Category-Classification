@@ -1,5 +1,6 @@
 # Image masterCategory Classification Code & API
 This project provides an API for image classification and color extraction. It utilizes a pre-trained model for categorizing fashion products and extracts dominant colors from images. The dataset used for training the model can be found at [Fashion Product Images (Small)](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small) on Kaggle. 
+
 ![output](out.png)
 
 
@@ -26,6 +27,7 @@ uvicorn api_cat:app --host 0.0.0.0 --port 8000
 - GET /: The root endpoint, which returns a welcome message.
 - POST /predict-category/: Predicts the category of the uploaded image file.
 - POST /extract-colors/: Extracts the dominant colors from the uploaded image file.
+- 
 ![API](img2.png)
   
 # Usage
