@@ -27,7 +27,7 @@ uvicorn api_cat:app --host 0.0.0.0 --port 8000
 - GET /: The root endpoint, which returns a welcome message.
 - POST /predict-category/: Predicts the category of the uploaded image file.
 - POST /extract-colors/: Extracts the dominant colors from the uploaded image file.
-- 
+  
 ![API](img2.png)
   
 # Usage
